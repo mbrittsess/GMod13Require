@@ -1,0 +1,6 @@
+To install this compatibility pack:
+* Place the two DLLs into garrysmod\garrysmod\lua\bin\
+* Place the Lua file into garrysmod\garrysmod\lua\autorun\
+The Lua file will appear to generate two errors when GMod is started, if you're manually checking in the console, but those messages are auto-generated even if they are caught (and they are).
+The script WILL generate an error message, however, when it determines that the default require() function is already working correctly and that it is time to delete the script.
+The source code for the binary libraries is included, if you want to check it out. The batch file used to build them is included as well, since people complain when I don't include build scripts, but you're not going to find anything useful in it and you'll have to manually edit it to get it to work on your own computer regardless.
